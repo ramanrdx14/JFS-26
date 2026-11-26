@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1a1a1a;
+  display: flex;
+}
+
+.card {
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  object-position: top;
+  object-fit: cover;
+}
+
+#name {
+  margin-bottom: 4px;
+}
+#role {
+  color: #4da6ff;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+#bio {
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: 600;
+}
+.actions {
+  margin-top: 24px;
+}
+.actions button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+  border: 0;
+  transition: background-color 0.4s ease-in-out;
+}
+#follow {
+  background-color: #4da6ff;
+}
+#message {
+  background-color: #3a3a3a;
+}
+
+#follow:hover {
+  background-color: #2b8ae6;
+}
+
+#message:hover {
+  background-color: #333232;
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+      }
+      .box1 {
+        background-color: #f1ce0688;
+        position: relative;
+      }
+      .box2 {
+        background-color: #3b82f6;
+        /* position: relative;
+        top: 50px;
+        left: 100px; */
+
+        /* position: absolute;
+        top: 10px;
+        left: 10px; */
+
+        /* position: fixed; */
+
+        position: sticky;
+        top: 30px;
+        left: 100px;
+      }
+      .box3 {
+        background-color: #22c55e;
+      }
+      .container {
+        border: 2px dashed black;
+        position: relative;
+      }
+      #sale {
+        color: white;
+        background-color: red;
+        padding: 0px 8px;
+        border-radius: 5px;
+        position: absolute;
+        top: 2px;
+        left: 74px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <span id="sale">Sale</span>
+        <img
+          src="https://m.media-amazon.com/images/I/71He3Csyz7L._SL1500_.jpg"
+          height="100px"
+          width="100px"
+          alt=""
+        />
+      </div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <!-- <div class="box box3">box3</div>
+      <div class="box box3">box3</div>
+      <div class="box box3">box3</div>
+      <div class="box box3">box3</div>
+      <div class="box box3">box3</div>
+      <div class="box box3">box3</div> -->
+    </div>
+  </body>
+</html>

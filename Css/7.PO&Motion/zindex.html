@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zindex</title>
+  </head>
+  <body></body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        position: absolute;
+      }
+      .box1 {
+        background-color: #500071;
+        top: 40px;
+        left: 40px;
+        /* z-index: 1; if i want the A box should be at top */
+      }
+      .box2 {
+        background-color: #8a2a78;
+        top: 70px;
+        left: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1">A</div>
+    <div class="box box2">B</div>
+  </body>
+</html>

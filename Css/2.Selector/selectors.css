@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+}
+
+p {
+  font-size: 32px;
+}
+
+.btn {
+}
+
+#header {
+}
+
+h1,
+h2,
+.btn {
+  color: red;
+}
+
+input[type="text"] {
+  border: 2px solid red;
+}
+
+div p {
+}
+
+/* 
+<div>
+    <p>✅ </p>
+    
+    <section>
+        <p>✅ </p>
+    </section>
+</div>
+
+<p>❌ </p> 
+*/
+
+div > p {
+}
+
+/* 
+<div>
+    <p>✅ </p>
+    
+    <section>
+        <p>❌ </p>
+    </section>
+</div>
+
+<p>❌ </p> 
+*/
+
+div + p {
+}
+
+/*
+<div>
+    <p>❌</p>
+</div>
+
+<p>✅ </p>
+<p>❌ </p>
+<p>❌</p>
+*/
+
+div ~ p {
+}
+/* 
+<div>
+    <p>❌ </p> 
+</div>
+<p>✅ </p>
+<p>✅ </p>
+<p>✅ </p>
+<p>✅ </p>
+*/
+
+a:hover {
+} /* mouse is on top */
+a:active {
+} /* being clicked right now */
+a:focus {
+} /* input is selected */
+a:visited {
+} /* link already visited */
+
+input:checked {
+} /* checkbox is checked */
+input:disabled {
+} /* input is disabled */
+input:required {
+} /* required field */
+
+li:first-child {
+} /* first element */
+li:last-child {
+} /* last element */
+li:nth-child(2) {
+} /* 2nd element */
+li:nth-child(odd) {
+} /* 1, 3, 5... */
+li:nth-child(even) {
+} /* 2, 4, 6... */
+
+button:hover {
+  background-color: red; /* red on hover */
+}
+
+h1::before {
+  content: "🔥 ";
+}
+
+h1::after {
+  content: " ✅";
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+p::selection {
+  background: yellow;
+}
+
+p::first-letter {
+  font-size: 48px;
+  color: red;
+}
+
+p::first-line {
+  font-weight: bold;
+  color: blue;
+}
+
+li::marker {
+  color: red;
+  font-size: 20px;
+}
